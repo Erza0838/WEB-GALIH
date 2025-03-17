@@ -1,0 +1,595 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(216, 206, 187);
+}
+
+html 
+{
+    scroll-behavior: smooth;
+}
+
+a 
+{
+    text-decoration: none;
+    color: rgb(99, 60, 136);
+}
+
+p 
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Homepage_Url_active
+{
+    color: rgb(237, 219, 255);
+}
+
+
+.Header_Top
+{   
+    position: fixed;
+    display: inline-block;
+    width: 100%;
+    height: 5%;
+    z-index: 1;
+    background-color: rgb(216, 206, 187);
+    padding: 1rem;
+    box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+    -webkit-box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+    -moz-box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+}
+
+.Header_Top_Container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 4rem;
+}
+
+.Header
+{
+    display: inline-block;
+    width: 100%;
+    height: 55vh;
+    background-color: rgb(75, 27, 119);
+    margin-top: 10vh;
+}
+
+.Detail_profile_Header
+{
+    display: inline-block;
+    width: 100%;
+    height: 135vh;
+    background-color: rgb(75, 27, 119);
+    margin-top: 10vh;
+}
+
+.Concept_Art_Container 
+{
+    display: inline-block;
+    width: 100%;
+    height: 98vh;
+    background-color: rgb(75, 27, 119);
+    margin-top: 20vh;
+}
+
+.Footer
+{
+    display: inline-block;
+    width: 100%;
+    padding-top: 4%;
+    margin-top: 45vh;
+    background-color: rgb(75, 27, 119);
+}
+
+.Footer_Container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile_picture_bio_container
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.Profile_Picture
+{
+    position: absolute;
+    left: 60vw;
+    top: 18vh;
+    border-radius: 13px;
+    box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+    -webkit-box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+    -moz-box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+}
+
+.Image_Profile_Style
+{
+    transform: translateX(70vw) translateY(10vh);
+    border-radius: 10px;
+    box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+    -webkit-box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+    -moz-box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+}
+
+.Profile_Container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    color: white;
+    margin-left: -5vw;
+    margin-top: 2vw;
+    /* position: relative; */
+}
+
+.Detail_Profile_Container
+{   
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 4vh;
+}
+
+.Detail_Profile_Button
+{
+    display: inline-block;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    border-radius: 8px;
+    background-color: rgb(216, 206, 187);
+}
+
+.Detail_Profile_Button:hover
+{
+    background-color: rgb(236, 147, 105);
+    transition: all 80ms ease-in-out;
+}
+
+.Detail_Profile_Text
+{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Introduction_Text
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(231, 177, 152);
+}
+
+.Skill_Text 
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.Biography_Container
+{
+    display: inline-block;
+    width: 40vw;
+}
+
+.Biography_Text
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.Skills_Container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.Skill_List
+{
+    display: flex;
+    flex-direction: row;
+    gap: 4vmin;
+    font-style: normal;
+}
+
+.Experience_List
+{
+    display: flex;
+    flex-direction: row;
+    gap: 5vmin;
+    font-style: normal;
+}
+
+.Experience_shadow 
+{
+    box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+    -webkit-box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+    -moz-box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+}
+
+.Skill_List_Border
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+}
+
+.Border_Skills
+{
+    display: inline-block;
+    width: 80vw;
+    border-radius: 10px;
+    padding-top: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.Experience_Paragraph
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    color: black;
+}
+
+.Image_Style
+{
+    border-radius: 10px;
+    width: 20vw;
+    height: 30vh;
+    box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+    -webkit-box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+    -moz-box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+}
+
+.Artwork_Container
+{
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(75, 27, 119);
+    margin-top: 23vh;
+}
+
+.profile_picture_Artwork_container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
+.Profile_Artwork_container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    color: white;
+    margin-left: 5vw;
+    margin-top: -2vw;
+}
+
+.Gallery_List
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.Artwork_List_Container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+.Image_Style_Artwork
+{
+    border-radius: 10px;
+    width: 18vw;
+    height: 40vh;
+    margin-left: 1.5vw;
+}
+
+.Artwork_List_Border
+{
+    display: inline-block;
+    width: 20vw;
+    background-color: rgb(75, 27, 119);
+    border-radius: 10px;
+    padding-top: .5rem;
+    padding-bottom: 2rem;
+    padding-left: .5rem;
+    padding-right: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    box-shadow: 10px 10px 38px -3px rgba(37, 36, 36, 0.75);
+    -webkit-box-shadow: 10px 10px 38px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 38px -3px rgba(0,0,0,0.75);
+}
+
+.Read_Options_Container1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2vh;
+    margin-left: 1vw;
+}
+
+.Read_Options_Container2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2vh;
+    margin-left: 1vw;
+}
+
+.Read_Options_Container3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2vh;
+    margin-left: 1vw;
+}
+
+.Read_Options_Container4
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2vh;
+    margin-left: 1vw;
+}
+
+.View_More_1
+{
+    display: inline-block;
+    background: white;
+    width: 10vw;
+    padding-top: 2px;
+    border-radius: 10px;
+}
+
+.View_More_2
+{
+    display: inline-block;
+    background: white;
+    width: 10vw;
+    padding-top: 2px;
+    border-radius: 10px;
+}
+
+.View_More_3
+{
+    display: inline-block;
+    background: white;
+    width: 10vw;
+    padding-top: 2px;
+    border-radius: 10px;
+}
+
+.View_More_4
+{
+    display: inline-block;
+    background: white;
+    width: 10vw;
+    padding-top: 2px;
+    border-radius: 10px;
+}
+
+.View_Less_1
+{
+    /* display: none; */
+    display: inline-block;
+    background: white;
+    width: 10vw;
+    padding-top: 2px;
+    border-radius: 10px;
+}
+
+.View_Less_2
+{
+    display: none;
+    background: white;
+    width: 10vw;
+    padding-top: 2px;
+    border-radius: 10px;
+}
+
+.View_Less_3
+{
+    display: none;
+    background: white;
+    width: 10vw;
+    padding-top: 2px;
+    border-radius: 10px;
+}
+
+.View_Less_4
+{
+    display: none;
+    background: white;
+    width: 10vw;
+    padding-top: 2px;
+    border-radius: 10px;
+}
+
+.View_More_Text
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    font-size: 2.5vmin;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Art_Collection_Container_1
+{
+    display: none;
+    width: 100%;
+    height: 15%;
+    background-color: rgb(75, 27, 119);
+    margin-top: 23vh;
+}
+
+.Art_Collection_Container_2
+{
+    display: none;
+    /* display: inline-block; */
+    width: 100%;
+    height: 15%;
+    background-color: rgb(75, 27, 119);
+    margin-top: 23vh;
+}
+
+.Image_Artwork_Collection_1
+{
+    width: 30vw;
+    height: 60vh;
+}
+
+.Art_Spek_Container_1
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.Art_View_Spek_Container_1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 4rem;
+    margin-top: 6vh;
+    margin-left: 3vh;
+}
+
+.Image_Artwork_Gallery_1
+{   
+    /* position: absolute; */
+    display: flex;
+    flex-direction: row;   
+    margin-left: 35vw;
+    gap: 1vw;
+    margin-top: -20vh;
+    margin-bottom: 2vh;
+}
+
+.Social_Media_Container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+
+.Email_Container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.Instagram_Container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+@media screen and (width < 1358px) 
+{
+    .Image_Profile_Style
+    {
+        transform: translateX(73vw) translateY(7vh);
+        border-radius: 10px;
+        box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+        -webkit-box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+        -moz-box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+    }
+
+    .Header_Top
+    {   
+        position: fixed;
+        display: inline-block;
+        width: 100%;
+        height: 5%;
+        z-index: 1;
+        background-color: rgb(216, 206, 187);
+        padding: 1rem;
+        box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+        -webkit-box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+        -moz-box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+    }
+}
+
+@media screen and (width > 1400px) 
+{
+    .Image_Profile_Style
+    {
+        transform: translateX(73vw) translateY(7vh);
+        border-radius: 10px;
+        box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+        -webkit-box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+        -moz-box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+    }
+
+    .Header_Top
+    {   
+        position: fixed;
+        display: inline-block;
+        width: 100%;
+        height: 5%;
+        z-index: 1;
+        background-color: rgb(216, 206, 187);
+        padding: 1rem;
+        box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+        -webkit-box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+        -moz-box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+    }
+
+    .Image_Profile_Style
+    {
+        width: 25vw;
+        height: 40vh;
+    }
+
+    .Image_Style
+    {
+        border-radius: 10px;
+        width: 30vw;
+        height: 40vh;
+        box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+        -webkit-box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+        -moz-box-shadow: -1px 15px 29px -1px rgba(0,0,0,0.52);
+    }
+}
